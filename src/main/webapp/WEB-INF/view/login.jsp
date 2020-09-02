@@ -28,11 +28,11 @@
     <form class="form-inline" onsubmit="return false">
         <div class="form-group">
             <label for="adminName">用户名</label>
-            <input type="text" class="form-control" value="admin" name="adminName" id="adminName" placeholder="Tom">
+            <input type="text" class="form-control" name="adminName" id="adminName" placeholder="Tom">
         </div>
         <div class="form-group">
             <label for="adminPassword">密码</label>
-            <input type="password" class="form-control" value="123456789" name="adminPassword" id="adminPassword">
+            <input type="password" class="form-control" name="adminPassword" id="adminPassword">
         </div>
         <%--<div class="form-group">
             <label class="radio-inline">
@@ -64,7 +64,7 @@
 
         $.ajax({
             type: "POST",
-            url: "${APP_PATH}/manager/login",
+            url: "${APP_PATH}/login",
             data: JSON.stringify(data),
             contentType: "application/json",
             success: function (result) {

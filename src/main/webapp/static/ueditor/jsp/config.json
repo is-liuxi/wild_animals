@@ -6,7 +6,7 @@
     "imageCompressEnable": true,
     "imageCompressBorder": 1600,
     "imageInsertAlign": "none", 
-    "imageUrlPrefix": "http://localhost:8081/animal", /* 图片访问路径前缀 */
+    "imageUrlPrefix": "http://localhost:8080/animal", /* 图片访问路径前缀 */
     "imagePathFormat": "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
     /* 涂鸦图片上传配置项 */
     "scrawlActionName": "uploadscrawl", /* 执行上传涂鸦的action名称 */
