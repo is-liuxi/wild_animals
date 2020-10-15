@@ -18,4 +18,5 @@
 ### 1.5.用户模块
 * 用户登录系统，查看物种信
 ## 2. 技术框架：
-* MyBatis、Spring、SpringMVC、JSP、HTML、CSS、JQuery、Bootstrap、UEditor、通用 Mapper
+* 后台：MyBatis、Spring、SpringMVC、JSP、通用 Mapper
+* 前台：HTML、CSS、JQuery、Bootstrap、UEditor百度富文本
