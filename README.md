@@ -1,3 +1,5 @@
+# 注：
+* 借鉴网站：[中国珍稀野生动物——中国网](http://www.china.com.cn/aboutchina/zhuanti/ysdw/node_7056247.htm)
 # 基于 SSM的濒危物种信息管理系统的设计与实现
 ## 1. 功能描述：
 ### 1.1. 系统管理模块
